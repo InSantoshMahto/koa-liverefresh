@@ -1,3 +1,5 @@
-.history
-
+#node modules
 node_modules
+
+#custom vs code 
+.history

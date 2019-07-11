@@ -8,7 +8,7 @@ const path = require('path');
 const app = new Koa();
 const router = new Router();
 
-const livereload = require('../../lib');
+const livereload = require('../../');
 
 // importing views
 const INDEX = 'index';
@@ -36,13 +36,17 @@ render(app, {
 /**
  * @description configure koa-liverefresh
  */
-livereload(router);
+livereload(
+  router,
+  path.join(__dirname, 'public'),
+  path.join(__dirname, 'views')
+);
 
 // root get request handler
 router.get('/', async (ctx) => {
   let sse = ``;
-  await ctx.render(INDEX,{
-    sse
+  await ctx.render(INDEX, {
+    sse,
   });
 });
 
