@@ -1,6 +1,6 @@
 {
   "name": "koa-liverefresh",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "live reload the browser ",
   "main": "index.js",
   "directories":{
@@ -26,7 +26,6 @@
   "author": "insantoshmahto",
   "license": "ISC",
   "dependencies": {
-    "koa": "^2.7.0",
     "koa-router": "^7.4.0",
     "watch": "^1.0.2"
   },
