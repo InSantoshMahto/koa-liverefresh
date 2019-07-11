@@ -1,29 +1,37 @@
 {
   "name": "koa-liverefresh",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "live reload the browser ",
   "main": "index.js",
+  "directories":{
+    "example": "examples",
+    "doc": "docs",
+    "lib": "lib"
+  },
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js",
-    "prd": "pm2 start index.js",
-    "css": "node-sass ./public/scss -w -o ./public/css/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "insantoshmahto"
+    "insantoshmahto", "koa-liverefresh", "koa-livereload"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/insantoshmahto/koa-liverefresh.git"
+  },
+  "bugs": {
+    "url": "https://github.com/insantoshmahto/koa-liverefresh/issues"
+  },
+  "homepage": "https://github.com/insantoshmahto/koa-liverefresh/",
   "author": "insantoshmahto",
   "license": "ISC",
   "dependencies": {
-    "@koa/cors": "^3.0.0",
     "koa": "^2.7.0",
     "koa-router": "^7.4.0",
     "watch": "^1.0.2"
   },
   "devDependencies": {
     "eslint": "^6.0.1",
-    "node-sass": "^4.12.0",
     "nodemon": "^1.19.1"
   },
   "nodemonConfig": {
