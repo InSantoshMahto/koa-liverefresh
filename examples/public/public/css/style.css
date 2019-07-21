@@ -1,0 +1,30 @@
+body {
+  padding: 0 3rem;
+  margin: 0;
+  background-color: #f1f1f1;
+  letter-spacing: 1px;
+}
+
+h1,
+pre {
+  letter-spacing: 1px;
+}
+
+h1 {
+  display: block;
+  text-align: center;
+  color: skyblue;
+  text-transform: uppercase;
+}
+
+pre {
+  font-size: 2rem;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-style: italic;
+  color: purple;
+}
+
+span {
+  color: rgb(112, 15, 223);
+}
