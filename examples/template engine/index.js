@@ -36,18 +36,14 @@ render(app, {
 /**
  * @description configure koa-liverefresh
  */
-livereload(
-  router,
-  path.join(__dirname, 'public'),
-  path.join(__dirname, 'views')
-);
+livereload(router, true, {
+  public: path.join(__dirname, 'public'),
+  views: path.join(__dirname, 'views'),
+});
 
 // root get request handler
-router.get('/', async (ctx) => {
-  let sse = ``;
-  await ctx.render(INDEX, {
-    sse,
-  });
+router.get('/', async ctx => {
+  await ctx.render(INDEX);
 });
 
 // attached router object with app
