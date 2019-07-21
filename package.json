@@ -1,6 +1,6 @@
 {
   "name": "koa-liverefresh",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "live reload the browser ",
   "main": "index.js",
   "directories":{

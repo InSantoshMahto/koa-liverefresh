@@ -6,10 +6,8 @@ it will automatically refresh the browser using server send events
 
 ```javascript
     npm i koa-liverefresh@latest
-
     // or
     yarn add koa-liverefresh
-
 ```
 
 ## uses
@@ -55,7 +53,6 @@ app.use(router.routes()).use(router.allowedMethods());
 app.listen(PORT, () => {
   console.log(`server is listening port: ${PORT}`);
 });
-
 ```
 
 ### for both public and views
@@ -123,4 +120,4 @@ app.listen(PORT, () => {
 
 ## Documentations
 
-* [Explorer Our Docs Here](https://github.com/InSantoshMahto/koa-liverefresh/tree/master/examples)
+* [Explorer Our Docs Here](https://github.com/InSantoshMahto/koa-liverefresh/tree/master/docs)
