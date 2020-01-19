@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "live reload the browser ",
   "main": "index.js",
-  "directories":{
+  "directories": {
     "example": "examples",
     "doc": "docs",
     "lib": "lib"
@@ -13,7 +13,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "insantoshmahto", "koa-liverefresh", "koa-livereload"
+    "insantoshmahto",
+    "koa-liverefresh",
+    "koa-livereload"
   ],
   "repository": {
     "type": "git",
